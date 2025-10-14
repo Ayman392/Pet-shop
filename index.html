@@ -3,9 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b480fc98b8.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        .sora {
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+        .adlam {
+  font-family: "ADLaM Display", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+    </style>
     <title>Pet shop</title>
 </head>
-<body>
-    
+<body class="sora">
+    <!-- Nav Bar Section Start -->
+    <header class="bg-[#FFF9F4] mx-auto px-4 md:px-32">
+         <section class="py-3 md:py-6">
+        <div class="flex justify-between items-center ">
+            <div class="flex items-center gap-x-2">
+                <img src="c1-assets/logo-header.png" alt="" class="">
+                <h3 class="text-2xl hidden md:block ">Browse<span class="text-[#FFDC26]">4</span>Pets</h3>
+            </div>
+            <div class="hidden md:block">
+                <ul class="flex gap-x-10 text-xl">
+                    <li class=""><a href="" class="">Find a Pet</a></li>
+                    <li class=""><a href="" class="">Breeds</a></li>
+                    <li class=""><a href="" class="">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="flex gap-x-6 items-center ">
+                <div class="items-center hidden md:block">
+                        <i class="px-4 fa-regular fa-bell fa-xl hidden"></i>
+                        <i class="fa-solid fa-magnifying-glass fa-xl hidden"></i>
+                    </div>
+                    <div class="block md:hidden">
+                        <i class="fa-solid fa-bars text-3xl"></i>
+                    </div>
+                <button class="hidden md:block border border-[#FFDC26] py-3 px-7 rounded-lg text-xl">Login</button>
+                <button class="hidden md:block border-none bg-[#FFDC26] py-3 px-7 rounded-lg text-xl">Register</button>
+            </div>
+        </div>
+    </section>
+        
+    </header>
+   
+    <!-- Nav Bar Section End -->
 </body>
 </html>
